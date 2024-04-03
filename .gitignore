@@ -1,2 +1,29 @@
 env
 .env
+
+# > git push origin main:main
+# remote: error: GH013: Repository rule violations found for refs/heads/main.        
+# remote: 
+# remote: - GITHUB PUSH PROTECTION        
+# remote:   —————————————————————————————————————————        
+# remote:     Resolve the following violations before pushing again        
+# remote: 
+# remote:     - GITHUB PUSH PROTECTION        
+# remote:       ——————————————————————————————————————————————————————        
+# remote:        Resolve the following secrets before pushing again.        
+# remote:               
+# remote:        (?) Learn how to resolve a blocked push        
+# remote:        https://docs.github.com/code-security/secret-scanning/pushing-a-branch-blocked-by-push-protection        
+# remote:               
+# remote:               
+# remote:       —— OpenAI API Key ————————————————————————————————————        
+# remote:        locations:        
+# remote:          - commit: 5add8d565f381abe5a491fef17fe5a579a5feb01        
+# remote:            path: Experiment/mcq.ipynb:110        
+# remote:               
+# remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+# remote:        https://github.com/priyanshurathour4093/zxcvb/security/secret-scanning/unblock-secret/2ea0zO4UGuRV51WYZ9u7avJWuKJ        
+# remote: 
+# To https://github.com/priyanshurathour4093/zxcvb.git
+#  ! [remote rejected] main -> main (push declined due to repository rule violations)
+# error: failed to push some refs to 'https://github.com/priyanshurathour4093/zxcvb.git'
